@@ -1,0 +1,43 @@
+{
+  "cash": 99400.0,
+  "positions": {
+    "AAPL": {
+      "shares": 0.267349,
+      "avg_price": 330.32
+    },
+    "XOM": {
+      "shares": 0.504597,
+      "avg_price": 163.82
+    },
+    "NVDA": {
+      "shares": 0.340941,
+      "avg_price": 230.86
+    },
+    "JNJ": {
+      "shares": 0.292884,
+      "avg_price": 258.66
+    },
+    "MSFT": {
+      "shares": 0.14538,
+      "avg_price": 512.8
+    },
+    "V": {
+      "shares": 0.189979,
+      "avg_price": 359.85
+    },
+    "JPM": {
+      "shares": 0.199022,
+      "avg_price": 333.18
+    },
+    "LLY": {
+      "shares": 0.05682,
+      "avg_price": 1149.85
+    }
+  },
+  "runs": 1,
+  "invested": 600.0,
+  "month": "2026-10",
+  "month_spent": 600.0,
+  "last_trade_utc": "2026-10-02 02:38 UTC",
+  "last_trade_score": 85
+}
