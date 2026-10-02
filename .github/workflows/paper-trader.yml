@@ -1,12 +1,11 @@
 name: Paper trader
 
 # Runs itself on GitHub's servers. Your Mac does not need to be on.
-# Times are UTC. 14:35 UTC = 10:35am ET, inside the US regular session.
-# Runs hourly, Mon-Fri, at :35 past the hour. GitHub cron is best-effort:
-# a run can be delayed a few minutes at peak load.
+# Times are UTC. Runs hourly, Mon-Fri, through the US session.
+# GitHub cron is best-effort: a run can be delayed a few minutes at peak load.
 #
-# The trader itself decides whether to buy. On most runs the timing score is
-# below the gate and it does nothing except record the run.
+# The trader decides whether to buy. On most runs the timing score sits below
+# the gate and it does nothing except record the run.
 
 on:
   schedule:
@@ -17,7 +16,6 @@ permissions:
   contents: write                # needed to commit the updated account files
 
 concurrency:
-  # Never let two runs overlap, and never cancel one that is mid-run.
   group: paper-trader
   cancel-in-progress: false
 
@@ -41,25 +39,27 @@ jobs:
       - name: Run the paper trader
         run: python paper_trader.py
 
-      - name: Commit changes only when the trader actually traded
+      - name: Commit the account files
         run: |
           git config user.name "paper-bot"
           git config user.email "paper-bot@users.noreply.github.com"
-          git add paper_account.json paper_trades.csv
+
+          # Add each file only if it actually exists, so a missing optional
+          # file can never fail the run.
+          for f in paper_account_a1.json paper_account_a2.json paper_account_a3.json \
+                   paper_trades_a1.csv paper_trades_a2.csv paper_trades_a3.csv \
+                   paper_summary.csv; do
+            if [ -f "$f" ]; then
+              git add "$f"
+            else
+              echo "not present, skipping: $f"
+            fi
+          done
 
           if git diff --staged --quiet; then
-            echo "No change on this run - nothing committed."
+            echo "Nothing changed this run."
             exit 0
           fi
 
-          # Only commit when the trade log gained rows: that means a real buy
-          # happened. Runs that merely update counters leave no commit behind,
-          # so the repo stays quiet on idle hours.
-          if git diff --staged --numstat -- paper_trades.csv | grep -qE '^[0-9]+'; then
-            git commit -m "Paper trade $(date -u '+%Y-%m-%d %H:%M UTC')"
-            git push
-            echo "Trade committed."
-          else
-            git reset -- paper_account.json
-            echo "No new trades this run - nothing committed."
-          fi
+          git commit -m "Paper run $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
