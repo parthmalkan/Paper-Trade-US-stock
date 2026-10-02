@@ -1,0 +1,19 @@
+# Keep Python bytecode and virtualenvs out of the repo.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# macOS clutter
+.DS_Store
+._*
+
+# Local run artefacts
+trader.log
+
+# IMPORTANT — do NOT ignore these two files.
+# paper_account.json and paper_trades.csv are the trader's memory and its
+# ledger. If they are ignored, every run starts from scratch and the trader
+# forgets its own history. They must be committed.
+# (No rules for them here on purpose.)
