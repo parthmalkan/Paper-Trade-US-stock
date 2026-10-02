@@ -58,7 +58,7 @@ APPROACHES = [
 
 # Set this to your repo's raw URL so the page always reads the newest commit.
 # Leave blank to read the local copies that came with the deploy.
-REPO_RAW_BASE = ""
+REPO_RAW_BASE = "[raw.githubusercontent.com](https://raw.githubusercontent.com/parthmalkan/Paper-Trade-US-stock/main)"
 
 st.set_page_config(page_title="Paper Trading Accounts", page_icon="📄", layout="wide")
 
