@@ -44,7 +44,7 @@ MIN_TIMING_SCORE = 80
 # On Streamlit Cloud the repo is cloned at deploy time, so the files on disk can
 # be stale. Set your repo here (owner/name) to pull the newest version instead.
 # Leave blank to just read the local copies.
-REPO_RAW_BASE = ""      # e.g. "https://raw.githubusercontent.com/yourname/stock-model/main"
+REPO_RAW_BASE = "[raw.githubusercontent.com](https://raw.githubusercontent.com/parthmalkan/Paper-Trade-US-stock/main)"      # e.g. "https://raw.githubusercontent.com/yourname/stock-model/main"
 
 st.set_page_config(page_title="Paper Trading Account", page_icon="📄", layout="wide")
 
