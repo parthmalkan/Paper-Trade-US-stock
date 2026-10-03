@@ -1,4 +1,4 @@
-Approach,Total value,Return (%),Cash,Positions,Trades,Last trade
-Approach 1,100001.56,0.0,99400.0,8,8,2026-10-02 02:38 UTC
-Approach 3,99997.83,-0.0,99400.0,11,11,2026-10-02 02:38 UTC
-Approach 2,99992.61,-0.01,99400.0,8,8,2026-10-02 02:38 UTC
+Approach,Total value,Total return %,Today P/L,1-month P/L,YTD P/L,Today %,1-month %,YTD %,Cash,Positions,Trades
+Approach 1,100001.56,0.0,,,0.0,,,0.0,97075.0,15,0
+Approach 3,99997.83,-0.0,,,-0.0,,,-0.0,97075.0,29,0
+Approach 2,99992.61,-0.01,,,-0.0,,,-0.0,97075.0,13,0
