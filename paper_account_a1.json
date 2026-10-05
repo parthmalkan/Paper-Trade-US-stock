@@ -1,9 +1,9 @@
 {
-  "cash": 97075.0,
+  "cash": 94750.0,
   "positions": {
     "AAPL": {
-      "shares": 1.116198,
-      "avg_price": 332.8828
+      "shares": 1.971406,
+      "avg_price": 333.8316
     },
     "XOM": {
       "shares": 0.504597,
@@ -34,47 +34,56 @@
       "avg_price": 1149.85
     },
     "AES": {
-      "shares": 20.983169,
-      "avg_price": 14.91
+      "shares": 41.833813,
+      "avg_price": 14.9075
     },
     "SLAB": {
-      "shares": 1.402311,
-      "avg_price": 222.76
+      "shares": 2.799245,
+      "avg_price": 222.5953
     },
     "ABBV": {
-      "shares": 1.107164,
-      "avg_price": 262.82
+      "shares": 2.216214,
+      "avg_price": 262.1444
     },
     "EXPD": {
-      "shares": 1.507211,
-      "avg_price": 192.47
+      "shares": 3.021565,
+      "avg_price": 191.8235
     },
     "WBD": {
-      "shares": 9.102316,
-      "avg_price": 30.94
+      "shares": 18.223197,
+      "avg_price": 30.9425
     },
     "PSX": {
-      "shares": 1.052133,
-      "avg_price": 264.58
+      "shares": 2.105795,
+      "avg_price": 264.6501
     },
     "MPC": {
       "shares": 0.652175,
       "avg_price": 422.33
+    },
+    "VTRS": {
+      "shares": 15.715482,
+      "avg_price": 17.58
     }
   },
-  "runs": 11,
-  "invested": 2925.0,
+  "runs": 12,
+  "invested": 5250.0,
   "month": "2026-10",
-  "month_spent": 2925.0,
-  "last_trade_utc": "2026-10-03 23:25 UTC",
+  "month_spent": 5250.0,
+  "last_trade_utc": "2026-10-05 13:54 UTC",
   "last_trade_score": 85,
-  "day": "2026-10-03",
+  "day": "2026-10-05",
   "day_spent": 2325.0,
   "snapshots": [
     {
       "date": "2026-10-03",
       "value": 100001.56,
       "cash": 97075.0
+    },
+    {
+      "date": "2026-10-05",
+      "value": 100005.34,
+      "cash": 94750.0
     }
   ],
   "hold_since": {
@@ -85,7 +94,8 @@
     "AAPL": "2026-10-03",
     "WBD": "2026-10-03",
     "PSX": "2026-10-03",
-    "MPC": "2026-10-03"
+    "MPC": "2026-10-03",
+    "VTRS": "2026-10-05"
   },
   "cash_hold": 0
 }

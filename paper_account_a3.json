@@ -1,5 +1,5 @@
 {
-  "cash": 97075.0,
+  "cash": 94750.0,
   "positions": {
     "MU": {
       "shares": 0.082012,
@@ -26,16 +26,16 @@
       "avg_price": 359.85
     },
     "AAPL": {
-      "shares": 0.23572,
-      "avg_price": 331.4287
+      "shares": 0.277145,
+      "avg_price": 331.973
     },
     "LLY": {
       "shares": 0.02215,
       "avg_price": 1149.85
     },
     "MSFT": {
-      "shares": 0.069473,
-      "avg_price": 514.4272
+      "shares": 0.092419,
+      "avg_price": 518.0255
     },
     "STX": {
       "shares": 0.014106,
@@ -46,91 +46,104 @@
       "avg_price": 338.24
     },
     "AES": {
-      "shares": 86.462315,
-      "avg_price": 14.91
+      "shares": 174.838835,
+      "avg_price": 14.9075
     },
     "SLAB": {
-      "shares": 3.628993,
-      "avg_price": 222.76
+      "shares": 7.180621,
+      "avg_price": 222.5968
     },
     "WBD": {
-      "shares": 1.395437,
-      "avg_price": 30.94
+      "shares": 2.590056,
+      "avg_price": 30.9423
     },
     "PSX": {
-      "shares": 0.07566,
-      "avg_price": 264.58
+      "shares": 0.108596,
+      "avg_price": 264.6225
     },
     "TGT": {
       "shares": 0.11446,
       "avg_price": 156.0
     },
     "FFIV": {
-      "shares": 0.030263,
-      "avg_price": 454.04
+      "shares": 0.055728,
+      "avg_price": 455.1641
     },
     "ABBV": {
-      "shares": 0.042639,
-      "avg_price": 262.82
+      "shares": 0.089322,
+      "avg_price": 262.1144
     },
     "EXPD": {
-      "shares": 0.055446,
-      "avg_price": 192.47
+      "shares": 0.172681,
+      "avg_price": 191.5942
     },
     "FAST": {
-      "shares": 0.195619,
-      "avg_price": 50.75
+      "shares": 0.393432,
+      "avg_price": 50.4081
     },
     "AME": {
-      "shares": 0.03913,
-      "avg_price": 251.93
+      "shares": 0.081081,
+      "avg_price": 251.4799
     },
     "EMR": {
-      "shares": 0.055675,
-      "avg_price": 161.61
+      "shares": 0.120931,
+      "avg_price": 161.4967
     },
     "VTRS": {
-      "shares": 0.43197,
-      "avg_price": 17.6
+      "shares": 1.072072,
+      "avg_price": 17.5881
     },
     "MPC": {
-      "shares": 0.016625,
-      "avg_price": 422.33
+      "shares": 0.032448,
+      "avg_price": 424.8901
     },
     "TMO": {
-      "shares": 0.010226,
-      "avg_price": 654.8
+      "shares": 0.019787,
+      "avg_price": 656.8391
     },
     "VLO": {
-      "shares": 0.016137,
-      "avg_price": 406.3
+      "shares": 0.039994,
+      "avg_price": 408.6741
     },
     "JCI": {
       "shares": 0.038244,
       "avg_price": 156.24
     },
     "WAT": {
-      "shares": 0.013232,
-      "avg_price": 425.21
+      "shares": 0.024997,
+      "avg_price": 425.9819
     },
     "A": {
-      "shares": 0.025497,
-      "avg_price": 167.78
+      "shares": 0.063723,
+      "avg_price": 167.834
+    },
+    "MET": {
+      "shares": 0.173431,
+      "avg_price": 95.45
+    },
+    "FTNT": {
+      "shares": 0.036921,
+      "avg_price": 182.62
     }
   },
-  "runs": 11,
-  "invested": 2925.0,
+  "runs": 12,
+  "invested": 5250.0,
   "month": "2026-10",
-  "month_spent": 2925.0,
-  "last_trade_utc": "2026-10-03 23:25 UTC",
+  "month_spent": 5250.0,
+  "last_trade_utc": "2026-10-05 13:54 UTC",
   "last_trade_score": 85,
-  "day": "2026-10-03",
+  "day": "2026-10-05",
   "day_spent": 2325.0,
   "snapshots": [
     {
       "date": "2026-10-03",
       "value": 99997.83,
       "cash": 97075.0
+    },
+    {
+      "date": "2026-10-05",
+      "value": 99994.93,
+      "cash": 94750.0
     }
   ],
   "hold_since": {
@@ -153,7 +166,9 @@
     "VLO": "2026-10-03",
     "JCI": "2026-10-03",
     "WAT": "2026-10-03",
-    "A": "2026-10-03"
+    "A": "2026-10-03",
+    "MET": "2026-10-05",
+    "FTNT": "2026-10-05"
   },
   "cash_hold": 0
 }
