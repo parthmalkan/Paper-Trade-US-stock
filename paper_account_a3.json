@@ -1,5 +1,5 @@
 {
-  "cash": 94750.0,
+  "cash": 92425.0,
   "positions": {
     "MU": {
       "shares": 0.082012,
@@ -22,20 +22,20 @@
       "avg_price": 914.94
     },
     "V": {
-      "shares": 0.150595,
-      "avg_price": 359.85
+      "shares": 0.187602,
+      "avg_price": 361.9844
     },
     "AAPL": {
-      "shares": 0.277145,
-      "avg_price": 331.973
+      "shares": 0.335042,
+      "avg_price": 332.2032
     },
     "LLY": {
       "shares": 0.02215,
       "avg_price": 1149.85
     },
     "MSFT": {
-      "shares": 0.092419,
-      "avg_price": 518.0255
+      "shares": 0.118492,
+      "avg_price": 521.5724
     },
     "STX": {
       "shares": 0.014106,
@@ -46,64 +46,64 @@
       "avg_price": 338.24
     },
     "AES": {
-      "shares": 174.838835,
-      "avg_price": 14.9075
+      "shares": 264.470859,
+      "avg_price": 14.91
     },
     "SLAB": {
-      "shares": 7.180621,
-      "avg_price": 222.5968
+      "shares": 10.386949,
+      "avg_price": 222.6441
     },
     "WBD": {
-      "shares": 2.590056,
-      "avg_price": 30.9423
+      "shares": 3.803251,
+      "avg_price": 30.9448
     },
     "PSX": {
-      "shares": 0.108596,
-      "avg_price": 264.6225
+      "shares": 0.133734,
+      "avg_price": 265.2987
     },
     "TGT": {
       "shares": 0.11446,
       "avg_price": 156.0
     },
     "FFIV": {
-      "shares": 0.055728,
-      "avg_price": 455.1641
+      "shares": 0.084486,
+      "avg_price": 459.5673
     },
     "ABBV": {
-      "shares": 0.089322,
-      "avg_price": 262.1144
+      "shares": 0.148944,
+      "avg_price": 261.9325
     },
     "EXPD": {
-      "shares": 0.172681,
-      "avg_price": 191.5942
+      "shares": 0.21718,
+      "avg_price": 191.8405
     },
     "FAST": {
       "shares": 0.393432,
       "avg_price": 50.4081
     },
     "AME": {
-      "shares": 0.081081,
-      "avg_price": 251.4799
+      "shares": 0.177075,
+      "avg_price": 252.7512
     },
     "EMR": {
       "shares": 0.120931,
       "avg_price": 161.4967
     },
     "VTRS": {
-      "shares": 1.072072,
-      "avg_price": 17.5881
+      "shares": 1.872682,
+      "avg_price": 17.5055
     },
     "MPC": {
-      "shares": 0.032448,
-      "avg_price": 424.8901
+      "shares": 0.044263,
+      "avg_price": 425.9871
     },
     "TMO": {
-      "shares": 0.019787,
-      "avg_price": 656.8391
+      "shares": 0.039705,
+      "avg_price": 657.597
     },
     "VLO": {
-      "shares": 0.039994,
-      "avg_price": 408.6741
+      "shares": 0.050361,
+      "avg_price": 409.9511
     },
     "JCI": {
       "shares": 0.038244,
@@ -118,22 +118,38 @@
       "avg_price": 167.834
     },
     "MET": {
-      "shares": 0.173431,
-      "avg_price": 95.45
+      "shares": 0.317844,
+      "avg_price": 96.9221
     },
     "FTNT": {
       "shares": 0.036921,
       "avg_price": 182.62
+    },
+    "HST": {
+      "shares": 1.106412,
+      "avg_price": 22.7578
+    },
+    "KDP": {
+      "shares": 0.587934,
+      "avg_price": 31.28
+    },
+    "PM": {
+      "shares": 0.090078,
+      "avg_price": 191.0
+    },
+    "ADM": {
+      "shares": 0.11204,
+      "avg_price": 82.59
     }
   },
-  "runs": 18,
-  "invested": 5250.0,
+  "runs": 19,
+  "invested": 7575.0,
   "month": "2026-10",
-  "month_spent": 5250.0,
-  "last_trade_utc": "2026-10-05 13:54 UTC",
+  "month_spent": 7575.0,
+  "last_trade_utc": "2026-10-06 14:53 UTC",
   "last_trade_score": 85,
   "day": "2026-10-06",
-  "day_spent": 0.0,
+  "day_spent": 2325.0,
   "snapshots": [
     {
       "date": "2026-10-03",
@@ -144,6 +160,11 @@
       "date": "2026-10-05",
       "value": 99994.93,
       "cash": 94750.0
+    },
+    {
+      "date": "2026-10-06",
+      "value": 100006.36,
+      "cash": 92425.0
     }
   ],
   "hold_since": {
@@ -168,7 +189,12 @@
     "WAT": "2026-10-03",
     "A": "2026-10-03",
     "MET": "2026-10-05",
-    "FTNT": "2026-10-05"
+    "FTNT": "2026-10-05",
+    "HST": "2026-10-06",
+    "KDP": "2026-10-06",
+    "PM": "2026-10-06",
+    "V": "2026-10-06",
+    "ADM": "2026-10-06"
   },
   "cash_hold": 0
 }

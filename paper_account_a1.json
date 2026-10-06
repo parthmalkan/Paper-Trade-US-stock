@@ -1,9 +1,9 @@
 {
-  "cash": 94750.0,
+  "cash": 92425.0,
   "positions": {
     "AAPL": {
-      "shares": 1.971406,
-      "avg_price": 333.8316
+      "shares": 2.812018,
+      "avg_price": 333.6742
     },
     "XOM": {
       "shares": 0.504597,
@@ -22,8 +22,8 @@
       "avg_price": 512.8
     },
     "V": {
-      "shares": 0.189979,
-      "avg_price": 359.85
+      "shares": 0.955813,
+      "avg_price": 368.5194
     },
     "JPM": {
       "shares": 0.199022,
@@ -34,24 +34,24 @@
       "avg_price": 1149.85
     },
     "AES": {
-      "shares": 41.833813,
-      "avg_price": 14.9075
+      "shares": 62.448931,
+      "avg_price": 14.91
     },
     "SLAB": {
-      "shares": 2.799245,
-      "avg_price": 222.5953
+      "shares": 4.175554,
+      "avg_price": 222.6463
     },
     "ABBV": {
-      "shares": 2.216214,
-      "avg_price": 262.1444
+      "shares": 3.29948,
+      "avg_price": 261.9854
     },
     "EXPD": {
-      "shares": 3.021565,
-      "avg_price": 191.8235
+      "shares": 4.50675,
+      "avg_price": 192.1441
     },
     "WBD": {
-      "shares": 18.223197,
-      "avg_price": 30.9425
+      "shares": 27.305855,
+      "avg_price": 30.945
     },
     "PSX": {
       "shares": 2.105795,
@@ -64,16 +64,20 @@
     "VTRS": {
       "shares": 15.715482,
       "avg_price": 17.58
+    },
+    "MET": {
+      "shares": 2.999358,
+      "avg_price": 98.69
     }
   },
-  "runs": 18,
-  "invested": 5250.0,
+  "runs": 19,
+  "invested": 7575.0,
   "month": "2026-10",
-  "month_spent": 5250.0,
-  "last_trade_utc": "2026-10-05 13:54 UTC",
+  "month_spent": 7575.0,
+  "last_trade_utc": "2026-10-06 14:53 UTC",
   "last_trade_score": 85,
   "day": "2026-10-06",
-  "day_spent": 0.0,
+  "day_spent": 2325.0,
   "snapshots": [
     {
       "date": "2026-10-03",
@@ -84,6 +88,11 @@
       "date": "2026-10-05",
       "value": 100005.34,
       "cash": 94750.0
+    },
+    {
+      "date": "2026-10-06",
+      "value": 100017.47,
+      "cash": 92425.0
     }
   ],
   "hold_since": {
@@ -95,7 +104,9 @@
     "WBD": "2026-10-03",
     "PSX": "2026-10-03",
     "MPC": "2026-10-03",
-    "VTRS": "2026-10-05"
+    "VTRS": "2026-10-05",
+    "MET": "2026-10-06",
+    "V": "2026-10-06"
   },
   "cash_hold": 0
 }
