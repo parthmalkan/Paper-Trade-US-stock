@@ -1,5 +1,5 @@
 {
-  "cash": 92425.0,
+  "cash": 90100.0,
   "positions": {
     "MU": {
       "shares": 0.082012,
@@ -22,20 +22,20 @@
       "avg_price": 914.94
     },
     "V": {
-      "shares": 0.187602,
-      "avg_price": 361.9844
+      "shares": 0.236302,
+      "avg_price": 364.03
     },
     "AAPL": {
-      "shares": 0.335042,
-      "avg_price": 332.2032
+      "shares": 0.400723,
+      "avg_price": 332.7567
     },
     "LLY": {
       "shares": 0.02215,
       "avg_price": 1149.85
     },
     "MSFT": {
-      "shares": 0.118492,
-      "avg_price": 521.5724
+      "shares": 0.127607,
+      "avg_price": 522.0315
     },
     "STX": {
       "shares": 0.014106,
@@ -46,36 +46,36 @@
       "avg_price": 338.24
     },
     "AES": {
-      "shares": 264.470859,
+      "shares": 347.723598,
       "avg_price": 14.91
     },
     "SLAB": {
-      "shares": 10.386949,
-      "avg_price": 222.6441
+      "shares": 14.324208,
+      "avg_price": 222.4231
     },
     "WBD": {
       "shares": 3.803251,
       "avg_price": 30.9448
     },
     "PSX": {
-      "shares": 0.133734,
-      "avg_price": 265.2987
+      "shares": 0.150142,
+      "avg_price": 265.8835
     },
     "TGT": {
       "shares": 0.11446,
       "avg_price": 156.0
     },
     "FFIV": {
-      "shares": 0.084486,
-      "avg_price": 459.5673
+      "shares": 0.116167,
+      "avg_price": 462.7288
     },
     "ABBV": {
-      "shares": 0.148944,
-      "avg_price": 261.9325
+      "shares": 0.184575,
+      "avg_price": 264.2736
     },
     "EXPD": {
-      "shares": 0.21718,
-      "avg_price": 191.8405
+      "shares": 0.278621,
+      "avg_price": 191.5934
     },
     "FAST": {
       "shares": 0.393432,
@@ -90,32 +90,32 @@
       "avg_price": 161.4967
     },
     "VTRS": {
-      "shares": 1.872682,
-      "avg_price": 17.5055
+      "shares": 2.518412,
+      "avg_price": 17.5592
     },
     "MPC": {
-      "shares": 0.044263,
-      "avg_price": 425.9871
+      "shares": 0.052045,
+      "avg_price": 427.9642
     },
     "TMO": {
-      "shares": 0.039705,
-      "avg_price": 657.597
+      "shares": 0.0494,
+      "avg_price": 659.3854
     },
     "VLO": {
-      "shares": 0.050361,
-      "avg_price": 409.9511
+      "shares": 0.064728,
+      "avg_price": 412.7098
     },
     "JCI": {
       "shares": 0.038244,
       "avg_price": 156.24
     },
     "WAT": {
-      "shares": 0.024997,
-      "avg_price": 425.9819
+      "shares": 0.039015,
+      "avg_price": 429.6551
     },
     "A": {
-      "shares": 0.063723,
-      "avg_price": 167.834
+      "shares": 0.090674,
+      "avg_price": 168.4631
     },
     "MET": {
       "shares": 0.317844,
@@ -134,22 +134,38 @@
       "avg_price": 31.28
     },
     "PM": {
-      "shares": 0.090078,
-      "avg_price": 191.0
+      "shares": 0.189046,
+      "avg_price": 191.6125
     },
     "ADM": {
       "shares": 0.11204,
       "avg_price": 82.59
+    },
+    "CVX": {
+      "shares": 0.119531,
+      "avg_price": 205.21
+    },
+    "ELV": {
+      "shares": 0.047361,
+      "avg_price": 403.53
+    },
+    "PFE": {
+      "shares": 0.617299,
+      "avg_price": 28.06
+    },
+    "BOX": {
+      "shares": 0.176715,
+      "avg_price": 36.05
     }
   },
-  "runs": 27,
-  "invested": 7575.0,
+  "runs": 28,
+  "invested": 9900.0,
   "month": "2026-10",
-  "month_spent": 7575.0,
-  "last_trade_utc": "2026-10-06 14:53 UTC",
+  "month_spent": 9900.0,
+  "last_trade_utc": "2026-10-07 15:56 UTC",
   "last_trade_score": 85,
   "day": "2026-10-07",
-  "day_spent": 0.0,
+  "day_spent": 2325.0,
   "snapshots": [
     {
       "date": "2026-10-03",
@@ -165,6 +181,11 @@
       "date": "2026-10-06",
       "value": 100006.36,
       "cash": 92425.0
+    },
+    {
+      "date": "2026-10-07",
+      "value": 100002.2,
+      "cash": 90100.0
     }
   ],
   "hold_since": {
@@ -194,7 +215,11 @@
     "KDP": "2026-10-06",
     "PM": "2026-10-06",
     "V": "2026-10-06",
-    "ADM": "2026-10-06"
+    "ADM": "2026-10-06",
+    "CVX": "2026-10-07",
+    "ELV": "2026-10-07",
+    "PFE": "2026-10-07",
+    "BOX": "2026-10-07"
   },
   "cash_hold": 0
 }
