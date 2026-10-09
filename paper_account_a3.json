@@ -1,5 +1,5 @@
 {
-  "cash": 87775.0,
+  "cash": 85450.0,
   "positions": {
     "MU": {
       "shares": 0.082012,
@@ -14,20 +14,20 @@
       "avg_price": 258.66
     },
     "PG": {
-      "shares": 0.589699,
-      "avg_price": 143.95
+      "shares": 0.800532,
+      "avg_price": 145.9147
     },
     "COST": {
       "shares": 0.073158,
       "avg_price": 914.94
     },
     "V": {
-      "shares": 0.253762,
-      "avg_price": 365.0036
+      "shares": 0.279405,
+      "avg_price": 366.7865
     },
     "AAPL": {
-      "shares": 0.470823,
-      "avg_price": 333.6803
+      "shares": 0.540318,
+      "avg_price": 333.8359
     },
     "LLY": {
       "shares": 0.02215,
@@ -46,36 +46,36 @@
       "avg_price": 338.24
     },
     "AES": {
-      "shares": 436.61219,
-      "avg_price": 14.9141
+      "shares": 529.52401,
+      "avg_price": 14.9157
     },
     "SLAB": {
-      "shares": 17.761976,
-      "avg_price": 222.2773
+      "shares": 20.715791,
+      "avg_price": 222.1736
     },
     "WBD": {
       "shares": 3.803251,
       "avg_price": 30.9448
     },
     "PSX": {
-      "shares": 0.171336,
-      "avg_price": 267.4614
+      "shares": 0.189773,
+      "avg_price": 269.042
     },
     "TGT": {
       "shares": 0.11446,
       "avg_price": 156.0
     },
     "FFIV": {
-      "shares": 0.147543,
-      "avg_price": 462.6544
+      "shares": 0.168157,
+      "avg_price": 464.8384
     },
     "ABBV": {
-      "shares": 0.236073,
-      "avg_price": 264.9262
+      "shares": 0.290899,
+      "avg_price": 267.1858
     },
     "EXPD": {
-      "shares": 0.397727,
-      "avg_price": 191.972
+      "shares": 0.464971,
+      "avg_price": 191.911
     },
     "FAST": {
       "shares": 0.393432,
@@ -94,8 +94,8 @@
       "avg_price": 17.5592
     },
     "MPC": {
-      "shares": 0.058257,
-      "avg_price": 431.42
+      "shares": 0.066902,
+      "avg_price": 435.4468
     },
     "TMO": {
       "shares": 0.0494,
@@ -118,70 +118,78 @@
       "avg_price": 168.4631
     },
     "MET": {
-      "shares": 0.453336,
-      "avg_price": 97.0844
+      "shares": 0.624407,
+      "avg_price": 97.3325
     },
     "FTNT": {
       "shares": 0.036921,
       "avg_price": 182.62
     },
     "HST": {
-      "shares": 1.106412,
-      "avg_price": 22.7578
+      "shares": 1.919982,
+      "avg_price": 22.6931
     },
     "KDP": {
       "shares": 0.587934,
       "avg_price": 31.28
     },
     "PM": {
-      "shares": 0.229056,
-      "avg_price": 193.364
+      "shares": 0.258886,
+      "avg_price": 194.1643
     },
     "ADM": {
       "shares": 0.227497,
       "avg_price": 82.4733
     },
     "CVX": {
-      "shares": 0.148275,
-      "avg_price": 206.1967
+      "shares": 0.221584,
+      "avg_price": 208.2788
     },
     "ELV": {
       "shares": 0.047361,
       "avg_price": 403.53
     },
     "PFE": {
-      "shares": 1.4703,
-      "avg_price": 27.8308
+      "shares": 2.408897,
+      "avg_price": 27.9802
     },
     "BOX": {
       "shares": 0.176715,
       "avg_price": 36.05
     },
     "BRK-B": {
-      "shares": 0.077661,
-      "avg_price": 509.23
+      "shares": 0.159153,
+      "avg_price": 512.1716
     },
     "WRB": {
       "shares": 0.161432,
       "avg_price": 71.29
     },
     "TRV": {
-      "shares": 0.026274,
-      "avg_price": 368.995
+      "shares": 0.064258,
+      "avg_price": 369.0571
     },
     "MA": {
-      "shares": 0.011814,
-      "avg_price": 578.575
+      "shares": 0.029335,
+      "avg_price": 583.3322
+    },
+    "KO": {
+      "shares": 0.142059,
+      "avg_price": 88.215
+    },
+    "ADP": {
+      "shares": 0.036081,
+      "avg_price": 271.285
     }
   },
-  "runs": 44,
-  "invested": 12225.0,
+  "runs": 45,
+  "invested": 14550.0,
   "month": "2026-10",
-  "month_spent": 12225.0,
-  "last_trade_utc": "2026-10-08 16:55 UTC",
+  "month_spent": 14550.0,
+  "last_trade_utc": "2026-10-09 17:51 UTC",
   "last_trade_score": 85,
   "day": "2026-10-09",
-  "day_spent": 0.0,
+  "day_spent": 2325.0,
   "snapshots": [
     {
       "date": "2026-10-03",
@@ -207,6 +215,11 @@
       "date": "2026-10-08",
       "value": 100007.03,
       "cash": 87775.0
+    },
+    {
+      "date": "2026-10-09",
+      "value": 100018.7,
+      "cash": 85450.0
     }
   ],
   "hold_since": {
@@ -245,7 +258,10 @@
     "XOM": "2026-10-08",
     "WRB": "2026-10-08",
     "TRV": "2026-10-08",
-    "MA": "2026-10-08"
+    "MA": "2026-10-08",
+    "PG": "2026-10-09",
+    "KO": "2026-10-09",
+    "ADP": "2026-10-09"
   },
   "cash_hold": 0
 }

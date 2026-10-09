@@ -1,5 +1,5 @@
 {
-  "cash": 87775.0,
+  "cash": 85450.0,
   "positions": {
     "AAPL": {
       "shares": 4.491856,
@@ -22,8 +22,8 @@
       "avg_price": 512.8
     },
     "V": {
-      "shares": 2.49766,
-      "avg_price": 372.5351
+      "shares": 3.252305,
+      "avg_price": 375.2951
     },
     "JPM": {
       "shares": 0.199022,
@@ -34,20 +34,20 @@
       "avg_price": 1149.85
     },
     "AES": {
-      "shares": 103.751785,
-      "avg_price": 14.914
+      "shares": 124.203007,
+      "avg_price": 14.9155
     },
     "SLAB": {
-      "shares": 6.909464,
-      "avg_price": 222.294
+      "shares": 8.252762,
+      "avg_price": 222.1729
     },
     "ABBV": {
-      "shares": 5.437449,
-      "avg_price": 265.3936
+      "shares": 6.482036,
+      "avg_price": 267.2503
     },
     "EXPD": {
-      "shares": 7.494361,
-      "avg_price": 191.9981
+      "shares": 8.972545,
+      "avg_price": 191.9243
     },
     "WBD": {
       "shares": 27.305855,
@@ -66,22 +66,30 @@
       "avg_price": 17.58
     },
     "MET": {
-      "shares": 6.024311,
-      "avg_price": 98.0749
+      "shares": 9.022451,
+      "avg_price": 98.0467
     },
     "TRV": {
       "shares": 0.760889,
       "avg_price": 368.995
+    },
+    "KO": {
+      "shares": 3.22471,
+      "avg_price": 88.215
+    },
+    "BRK-B": {
+      "shares": 0.546471,
+      "avg_price": 514.975
     }
   },
-  "runs": 44,
-  "invested": 12225.0,
+  "runs": 45,
+  "invested": 14550.0,
   "month": "2026-10",
-  "month_spent": 12225.0,
-  "last_trade_utc": "2026-10-08 16:55 UTC",
+  "month_spent": 14550.0,
+  "last_trade_utc": "2026-10-09 17:51 UTC",
   "last_trade_score": 85,
   "day": "2026-10-09",
-  "day_spent": 0.0,
+  "day_spent": 2325.0,
   "snapshots": [
     {
       "date": "2026-10-03",
@@ -107,6 +115,11 @@
       "date": "2026-10-08",
       "value": 100111.7,
       "cash": 87775.0
+    },
+    {
+      "date": "2026-10-09",
+      "value": 100186.9,
+      "cash": 85450.0
     }
   ],
   "hold_since": {
@@ -121,7 +134,9 @@
     "VTRS": "2026-10-05",
     "MET": "2026-10-06",
     "V": "2026-10-06",
-    "TRV": "2026-10-08"
+    "TRV": "2026-10-08",
+    "KO": "2026-10-09",
+    "BRK-B": "2026-10-09"
   },
   "cash_hold": 0
 }
