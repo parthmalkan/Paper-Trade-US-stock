@@ -74,14 +74,14 @@
       "avg_price": 368.995
     }
   },
-  "runs": 40,
+  "runs": 41,
   "invested": 12225.0,
   "month": "2026-10",
   "month_spent": 12225.0,
   "last_trade_utc": "2026-10-08 16:55 UTC",
   "last_trade_score": 85,
-  "day": "2026-10-08",
-  "day_spent": 2325.0,
+  "day": "2026-10-09",
+  "day_spent": 0.0,
   "snapshots": [
     {
       "date": "2026-10-03",
