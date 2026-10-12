@@ -1,5 +1,5 @@
 {
-  "cash": 85450.0,
+  "cash": 85000.0,
   "positions": {
     "AAPL": {
       "shares": 4.491856,
@@ -22,8 +22,8 @@
       "avg_price": 512.8
     },
     "V": {
-      "shares": 3.252305,
-      "avg_price": 375.2951
+      "shares": 3.396698,
+      "avg_price": 375.8203
     },
     "JPM": {
       "shares": 0.199022,
@@ -34,20 +34,20 @@
       "avg_price": 1149.85
     },
     "AES": {
-      "shares": 124.203007,
-      "avg_price": 14.9155
+      "shares": 128.141572,
+      "avg_price": 14.9161
     },
     "SLAB": {
-      "shares": 8.252762,
-      "avg_price": 222.1729
+      "shares": 8.512541,
+      "avg_price": 222.1582
     },
     "ABBV": {
-      "shares": 6.482036,
-      "avg_price": 267.2503
+      "shares": 6.68135,
+      "avg_price": 267.5979
     },
     "EXPD": {
-      "shares": 8.972545,
-      "avg_price": 191.9243
+      "shares": 9.254954,
+      "avg_price": 191.9965
     },
     "WBD": {
       "shares": 27.305855,
@@ -66,30 +66,30 @@
       "avg_price": 17.58
     },
     "MET": {
-      "shares": 9.022451,
-      "avg_price": 98.0467
+      "shares": 9.595368,
+      "avg_price": 98.1191
     },
     "TRV": {
       "shares": 0.760889,
       "avg_price": 368.995
     },
     "KO": {
-      "shares": 3.22471,
-      "avg_price": 88.215
+      "shares": 3.846701,
+      "avg_price": 88.3371
     },
     "BRK-B": {
-      "shares": 0.546471,
-      "avg_price": 514.975
+      "shares": 0.652713,
+      "avg_price": 515.3372
     }
   },
-  "runs": 48,
-  "invested": 14550.0,
+  "runs": 49,
+  "invested": 15000.0,
   "month": "2026-10",
-  "month_spent": 14550.0,
-  "last_trade_utc": "2026-10-09 17:51 UTC",
+  "month_spent": 15000.0,
+  "last_trade_utc": "2026-10-12 14:05 UTC",
   "last_trade_score": 85,
-  "day": "2026-10-09",
-  "day_spent": 2325.0,
+  "day": "2026-10-12",
+  "day_spent": 450.0,
   "snapshots": [
     {
       "date": "2026-10-03",
@@ -120,6 +120,11 @@
       "date": "2026-10-09",
       "value": 100186.9,
       "cash": 85450.0
+    },
+    {
+      "date": "2026-10-12",
+      "value": 100286.62,
+      "cash": 85000.0
     }
   ],
   "hold_since": {
