@@ -1,5 +1,5 @@
 {
-  "cash": 85000.0,
+  "cash": 82675.0,
   "positions": {
     "MU": {
       "shares": 0.795259,
@@ -34,8 +34,8 @@
       "avg_price": 230.86
     },
     "MRNA": {
-      "shares": 12.182891,
-      "avg_price": 196.9976
+      "shares": 13.732612,
+      "avg_price": 202.984
     },
     "DELL": {
       "shares": 4.197657,
@@ -50,30 +50,34 @@
       "avg_price": 70.6473
     },
     "TEAM": {
-      "shares": 12.184012,
-      "avg_price": 196.9795
+      "shares": 14.216959,
+      "avg_price": 196.0687
     },
     "OKTA": {
-      "shares": 7.316645,
-      "avg_price": 222.0962
+      "shares": 9.364688,
+      "avg_price": 214.9029
     },
     "SNOW": {
-      "shares": 2.197714,
-      "avg_price": 352.6392
+      "shares": 3.5283,
+      "avg_price": 329.4788
     },
     "CRWD": {
-      "shares": 0.278826,
-      "avg_price": 268.985
+      "shares": 1.861232,
+      "avg_price": 248.4914
+    },
+    "PAYC": {
+      "shares": 1.427493,
+      "avg_price": 271.455
     }
   },
-  "runs": 171,
-  "invested": 15000.0,
+  "runs": 172,
+  "invested": 17325.0,
   "month": "2026-11",
-  "month_spent": 0.0,
-  "last_trade_utc": "2026-10-12 14:05 UTC",
+  "month_spent": 2325.0,
+  "last_trade_utc": "2026-11-04 20:33 UTC",
   "last_trade_score": 85,
   "day": "2026-11-04",
-  "day_spent": 0.0,
+  "day_spent": 2325.0,
   "snapshots": [
     {
       "date": "2026-10-03",
@@ -109,6 +113,11 @@
       "date": "2026-10-12",
       "value": 100467.69,
       "cash": 85000.0
+    },
+    {
+      "date": "2026-11-04",
+      "value": 98024.79,
+      "cash": 82675.0
     }
   ],
   "hold_since": {
@@ -120,7 +129,8 @@
     "TEAM": "2026-10-03",
     "OKTA": "2026-10-06",
     "SNOW": "2026-10-08",
-    "CRWD": "2026-10-12"
+    "CRWD": "2026-10-12",
+    "PAYC": "2026-11-04"
   },
   "cash_hold": 0
 }

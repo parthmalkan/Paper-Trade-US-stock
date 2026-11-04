@@ -1,5 +1,5 @@
 {
-  "cash": 85000.0,
+  "cash": 82675.0,
   "positions": {
     "AAPL": {
       "shares": 4.491856,
@@ -22,8 +22,8 @@
       "avg_price": 512.8
     },
     "V": {
-      "shares": 3.396698,
-      "avg_price": 375.8203
+      "shares": 4.073041,
+      "avg_price": 385.6091
     },
     "JPM": {
       "shares": 0.199022,
@@ -34,8 +34,8 @@
       "avg_price": 1149.85
     },
     "AES": {
-      "shares": 128.141572,
-      "avg_price": 14.9161
+      "shares": 148.118106,
+      "avg_price": 14.9153
     },
     "SLAB": {
       "shares": 8.512541,
@@ -66,30 +66,42 @@
       "avg_price": 17.58
     },
     "MET": {
-      "shares": 9.595368,
-      "avg_price": 98.1191
+      "shares": 12.389113,
+      "avg_price": 99.222
     },
     "TRV": {
-      "shares": 0.760889,
-      "avg_price": 368.995
+      "shares": 1.462109,
+      "avg_price": 387.8287
     },
     "KO": {
       "shares": 3.846701,
       "avg_price": 88.3371
     },
     "BRK-B": {
-      "shares": 0.652713,
-      "avg_price": 515.3372
+      "shares": 1.165719,
+      "avg_price": 543.3053
+    },
+    "MA": {
+      "shares": 0.429317,
+      "avg_price": 671.49
+    },
+    "PRU": {
+      "shares": 2.274636,
+      "avg_price": 126.26
+    },
+    "CAH": {
+      "shares": 1.103453,
+      "avg_price": 259.71
     }
   },
-  "runs": 171,
-  "invested": 15000.0,
+  "runs": 172,
+  "invested": 17325.0,
   "month": "2026-11",
-  "month_spent": 0.0,
-  "last_trade_utc": "2026-10-12 14:05 UTC",
+  "month_spent": 2325.0,
+  "last_trade_utc": "2026-11-04 20:33 UTC",
   "last_trade_score": 85,
   "day": "2026-11-04",
-  "day_spent": 0.0,
+  "day_spent": 2325.0,
   "snapshots": [
     {
       "date": "2026-10-03",
@@ -125,6 +137,11 @@
       "date": "2026-10-12",
       "value": 100286.62,
       "cash": 85000.0
+    },
+    {
+      "date": "2026-11-04",
+      "value": 100621.5,
+      "cash": 82675.0
     }
   ],
   "hold_since": {
@@ -141,7 +158,10 @@
     "V": "2026-10-06",
     "TRV": "2026-10-08",
     "KO": "2026-10-09",
-    "BRK-B": "2026-10-09"
+    "BRK-B": "2026-10-09",
+    "MA": "2026-11-04",
+    "PRU": "2026-11-04",
+    "CAH": "2026-11-04"
   },
   "cash_hold": 0
 }
